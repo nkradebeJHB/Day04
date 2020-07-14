@@ -6,7 +6,7 @@
 /*   By: nkradebe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 08:23:40 by nkradebe          #+#    #+#             */
-/*   Updated: 2020/07/14 11:26:38 by nkradebe         ###   ########.fr       */
+/*   Updated: 2020/07/14 11:55:04 by nkradebe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_fibonacci(int	index)
 	if(index	<	0)
 		return(0);
 
-	while(index	>	0)
+	while(index	>	1)
 	{
 		temp		=	cur_value;
 		cur_value	=	pre_value	+	cur_value;
