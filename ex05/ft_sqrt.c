@@ -6,7 +6,7 @@
 /*   By: nkradebe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 08:50:43 by nkradebe          #+#    #+#             */
-/*   Updated: 2020/07/14 10:12:53 by nkradebe         ###   ########.fr       */
+/*   Updated: 2020/07/14 11:33:31 by nkradebe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@ int		ft_sqrt(int		nb)
 	{
 		if((i * i)	!=	nb)
 			sqrt	=	0 ;
+		
+		if(sqrt	==	1)
+			return(i);
 		i++;
 	}
-	if(sqrt	==	1)
-		return(i);
-	else
 		return(0);
 }
